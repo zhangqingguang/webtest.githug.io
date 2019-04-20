@@ -12,7 +12,7 @@
     <aside id="sidebar">
         <p style="font-size:16px;font-weight:bold;color:#FF7256;">网站访问次数：<label id="lb_count">0</label></p>
      </aside>
-    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript">   
        $(function(){
         getTotalPV(); 
@@ -20,7 +20,7 @@
      function getTotalPV()
      { 
          $.ajax({ 
-             url:"https://cloud.bmob.cn/c07b861a6cca2b17/getTotalPV", 
+             url:"http://cloud.bmob.cn/c07b861a6cca2b17/getTotalPV", 
              dataType:'jsonp', 
              data:'', 
              jsonp:'callback', 
